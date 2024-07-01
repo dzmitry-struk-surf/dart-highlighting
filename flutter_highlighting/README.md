@@ -52,9 +52,9 @@ class MyWidget extends StatelessWidget {
 ## Versions and Migration
 
 The package uses its own version numbering in addition to that of HighlightJS.
-For example, the version `0.9.0+11.8.0` means that it is:
+For example, the version `0.9.2+11.8.0` means that it is:
 
-- Version `0.9.0` of the Dart package itself, and it contains breaking changes
+- Version `0.9.2` of the Dart package itself, and it contains breaking changes
   over the version `0.8.x`.
 - Ported from HighlightJS version `11.8.0`.
 

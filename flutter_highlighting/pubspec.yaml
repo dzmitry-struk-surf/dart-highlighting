@@ -1,6 +1,6 @@
 name: flutter_highlighting
 description: Syntax highlighting widget for Flutter with lots of languages and themes support.
-version: 0.9.1+11.8.0
+version: 0.9.2+11.8.0
 homepage: https://github.com/akvelon/dart-highlighting
 
 environment:

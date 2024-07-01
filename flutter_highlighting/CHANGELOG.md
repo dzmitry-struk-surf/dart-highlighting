@@ -1,3 +1,7 @@
+# 0.9.2+11.8.0
+
+* Make code in HighlightView selectable.
+
 # 0.9.1+11.8.0
 
 * Using [total_lints](https://pub.dev/packages/total_lints).
