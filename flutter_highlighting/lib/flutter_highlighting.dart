@@ -27,8 +27,7 @@ class HighlightView extends StatelessWidget {
   /// Specify text styles such as font family and font size
   final TextStyle? textStyle;
 
-  HighlightView(
-    String input, {
+  HighlightView(String input, {
     this.languageId,
     this.theme = const {},
     this.padding,
@@ -90,11 +89,13 @@ class HighlightView extends StatelessWidget {
     return Container(
       color: theme[_rootKey]?.backgroundColor ?? _defaultBackgroundColor,
       padding: padding,
-      child: RichText(
-        text: TextSpan(
+      child: SelectableText.rich(
+        TextSpan(
           style: _textStyle,
           children: _convert(
-            highlight.highlight(languageId ?? '', source, true).nodes ?? [],
+            highlight
+                .highlight(languageId ?? '', source, true)
+                .nodes ?? [],
           ),
         ),
       ),
