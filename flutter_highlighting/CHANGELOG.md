@@ -1,3 +1,7 @@
+# 0.9.3+11.8.0
+
+* Make code in HighlightView support SelectionArea.
+
 # 0.9.2+11.8.0
 
 * Make code in HighlightView selectable.
